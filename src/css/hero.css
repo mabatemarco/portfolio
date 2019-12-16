@@ -1,0 +1,50 @@
+#hero{
+  height:100vh;
+  width:100%;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url('../images/babyhero.png');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+#hero img{
+  border-radius: 100%;
+  height:380px;
+  animation: slide-left 2s ease-out;
+  margin-top: 60px;
+}
+
+@keyframes slide-left{
+  from{
+    margin-left: 150%;
+  }
+  to{
+    margin-left:0
+  }
+}
+
+#hero h1{
+  font-family: helvetica;
+  text-shadow: 2px 2px grey;
+  animation: slide-right 1.5s ease-out .8s both;
+  color:white
+}
+
+@keyframes slide-right{
+  from{
+    margin-left: -150%;
+  }
+  to{
+    margin-left:0;
+  }
+}
+
+#hero h2{
+  font-family: times;
+  animation: slide-left 1.5s ease-out .8s both;
+  color:white;
+
+}
