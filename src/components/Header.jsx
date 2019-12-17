@@ -37,9 +37,9 @@ export default class Header extends React.Component {
         </div>
         {this.state.menu &&
           <div className="ham-menu">
-            <a href="#projects" className='underline'>Projects</a>
-            <a href="#about" className='underline'>About Me</a>
-            <a href="#contact" className='underline'>Contact Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About Me</a>
+            <a href="#contact">Contact Me</a>
           </div>
         }
       </header>

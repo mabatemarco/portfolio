@@ -1,0 +1,10 @@
+footer{
+  height:60px;
+  line-height: 60px;
+  background-color: black;
+}
+
+footer p{
+  color:white;
+  margin:0;
+}

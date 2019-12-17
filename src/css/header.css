@@ -5,9 +5,10 @@ header{
   height:80px;
   line-height: 80px;
   width:100%;
-  background-color: grey;
+  background-color: #B38C1E;
   display:flex;
   justify-content: flex-end;
+  z-index: 10;
 }
 
 header a{

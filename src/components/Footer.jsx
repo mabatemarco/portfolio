@@ -4,8 +4,8 @@ import '../css/footer.css';
 
 export default function Footer() {
   return (
-    <div>
-      
-    </div>
+    <footer>
+      <p>&copy; 2019 &mdash; Michael Abatemarco</p>
+    </footer>
   )
 }
