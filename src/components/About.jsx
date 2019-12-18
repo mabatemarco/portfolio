@@ -22,13 +22,13 @@ export default function About() {
         </div>
         <div data-aos='fade-down' className="about-right">
           <div className="channel">
-            <a href="https://github.com/mabatemarco">
+            <a target='_blank' href="https://github.com/mabatemarco">
               <img src={Github} alt="github" />
               <h4>Github</h4>
             </a>
           </div>
           <div className="channel">
-            <a href="https://www.linkedin.com/in/mikeabatemarco/">
+            <a target='_blank' href="https://www.linkedin.com/in/mikeabatemarco/">
               <img src={Linkedin} alt="linkedin" />
               <h4>LinkedIn</h4>
             </a>
@@ -40,7 +40,7 @@ export default function About() {
             </a>
           </div>
           <div className="channel">
-            <a href="https://www.docdroid.net/lPF5nv8/michaelabatemarcoresume.pdf">
+            <a target='_blank' href="https://www.docdroid.net/lPF5nv8/michaelabatemarcoresume.pdf">
               <img src={Resume} alt="email" />
               <h4>Resume</h4>
             </a>

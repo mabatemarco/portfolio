@@ -10,7 +10,7 @@ export default function Projects() {
     <div id="projects">
       <h2>My Projects</h2>
       <div className="projects">
-        <a data-aos='fade-right' className='project' href="http://airyng.surge.sh">
+        <a data-aos='fade-right' className='project' target='_blank' href="http://airyng.surge.sh">
           <div className="overlay">
           </div>
           <img src={Airyng} alt="urban suburbanite" />
@@ -19,7 +19,7 @@ export default function Projects() {
           <p>Rent yards for private leisure events</p>
         </a>
         <h3 data-aos='fade-in' className='mobile-title'>Urban Suburbanite</h3>
-        <a data-aos='fade-left' className='project' href="http://deckbuilder.surge.sh">
+        <a data-aos='fade-left' className='project' target='_blank' href="http://deckbuilder.surge.sh">
           <div className="overlay">
           </div>
           <img src={Deckbuilder} alt="deckbuilder" />
@@ -28,7 +28,7 @@ export default function Projects() {
           <p>Card-cased combat game</p>
         </a>
         <h3 data-aos='fade-in' className='mobile-title'>Deckbuilder</h3>
-        <a data-aos='fade-right' className='project' href="http://sourc.surge.sh">
+        <a data-aos='fade-right' className='project' target='_blank' href="http://sourc.surge.sh">
           <div className='overlay'>
           </div>
           <img src={Sourc} alt="sourc" />
@@ -37,7 +37,7 @@ export default function Projects() {
           <p>Job posting board for development and UX</p>
         </a>
         <h3 data-aos='fade-in' className='mobile-title'>Sourc</h3>
-        <a data-aos='fade-left' className='project' href="http://shoppinglist928.surge.sh">
+        <a data-aos='fade-left' className='project' target='_blank' href="http://shoppinglist928.surge.sh">
           <div className="overlay">
           </div>
           <img src={ShoppingList} alt="shopping list" />
