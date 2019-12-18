@@ -28,8 +28,8 @@
 
 #hero h1{
   font-family: helvetica;
-  text-shadow: 2px 2px grey;
   animation: slide-right 1.5s ease-out .8s both;
+  font-family: 'Merriweather Sans', sans-serif;
   color:white
 }
 
@@ -46,5 +46,6 @@
   font-family: times;
   animation: slide-left 1.5s ease-out .8s both;
   color:white;
-  width:100%
+  width:100%;
+  font-family: 'Montserrat', sans-serif;
 }

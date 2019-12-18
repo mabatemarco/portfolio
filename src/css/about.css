@@ -8,6 +8,8 @@
   margin:0;
   padding:1em;
   font-size: 2em;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 700;
 }
 
 .about{
@@ -30,6 +32,8 @@
 .about-left p{
   margin-left: 40%;
   margin-right: 2em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 }
 
 .about-right img{
@@ -41,10 +45,13 @@
 .about-right{
   text-align: left;
   border-left: 1px solid black;
+  margin-top: .8em;
 }
 
 .channel h4{
   margin: auto 0;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 600;
 }
 
 .channel a{
@@ -60,6 +67,7 @@
 .skills{
   margin-top: 2em;
   padding-bottom: 2em;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 .skill-icons{
