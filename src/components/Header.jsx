@@ -37,9 +37,9 @@ export default class Header extends React.Component {
         </div>
         {this.state.menu &&
           <div className="ham-menu">
-            <a href="#projects">Projects</a>
-            <a href="#about">About Me</a>
-            <a href="#contact">Contact Me</a>
+            <a onClick={() => { this.hamToggle(); this.menuToggle() }} href="#projects">Projects</a>
+            <a onClick={() => { this.hamToggle(); this.menuToggle() }} href="#about">About Me</a>
+            <a onClick={() => { this.hamToggle(); this.menuToggle() }} href="#contact">Contact Me</a>
           </div>
         }
       </header>

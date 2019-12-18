@@ -52,11 +52,17 @@ header a{
 .ham-menu{
   position:absolute;
   right:0;
-  top:80px;
-  border:1px solid black;
-  background:red;
-  z-index: 2;
+  top:70px;
+  border-left:1px solid black;
+  border-bottom: 1px solid black;
+  background:#B48C1D;
+  z-index: 10;
   animation: slideIn .6s ease-out
+}
+
+.ham-menu a{
+  margin: 0 .8em;
+  text-align: right;
 }
 
 @keyframes slideIn{
@@ -70,10 +76,6 @@ header a{
 
 .ham-menu a{
   display:block;
-}
-
-.ham-menu a:first-of-type{
-  border-bottom:1px solid black;
 }
 
 .underline {
@@ -105,4 +107,19 @@ header a{
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+
+@media (max-width:700px){
+  .underline{
+    display:none;
+  }
+
+  .ham-icon{
+    display:block;
+  }
+
+  header{
+    height:70px;
+    line-height: 70px;
+  }
 }

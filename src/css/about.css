@@ -1,6 +1,7 @@
 #about{
   background-color: #EBE8BB;
-  padding-bottom: 2em;
+  overflow: hidden;
+  padding-top: 3.5em;
 }
 
 #about h2{
@@ -32,8 +33,8 @@
 }
 
 .about-right img{
-  width:40px;
-  height:40px;
+  width:30px;
+  height:30px;
   margin: auto 1em
 }
 
@@ -50,23 +51,82 @@
   text-decoration:none;
   color:black;
   text-align: left;
-  height:60px;
-  line-height: 60px;
+  height:40px;
+  line-height: 40px;
   display:flex;
   justify-content: left;
 }
 
 .skills{
   margin-top: 2em;
+  padding-bottom: 2em;
 }
 
 .skill-icons{
   display:flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .skill-icons img{
   height:90px;
   width:90px;
   margin:0 1em
+}
+
+@media (max-width:900px){
+
+  .about-left p{
+    margin-left:10%;
+    margin-right:.5em;
+  }
+
+  .skill-icons img{
+    height:70px;
+    width:70px;
+    margin:0 .7em
+  }
+}
+
+@media (max-width:750px){
+  .about{
+    display:block;
+  }
+
+  .about-left{
+    width:80%;
+    margin:.5em auto;
+    text-align: justify;
+  }
+
+  .about-right{
+    width:40%;
+    margin: .5em auto;
+    border-left:none
+  }
+
+  .channel{
+    margin:.5em auto;
+  }
+
+  .skill-icons{
+    width:80%;
+    margin: 0 auto;
+  }
+
+  .skill-icons img{
+    margin:.5em
+  }
+}
+
+@media (max-width:550px){
+  .about-right{
+    width:60%;
+  }
+}
+
+  @media (max-width:450px){
+    .about-right{
+      width:80%;
+    }
 }

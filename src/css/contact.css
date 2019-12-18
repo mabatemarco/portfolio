@@ -1,6 +1,8 @@
 #contact{
   background-color: #6A626C;
   padding-bottom: 2em;
+  overflow: hidden;
+  padding-top: 3.5em;
 }
 
 #contact h2{
@@ -14,6 +16,7 @@ form{
   border: 2px solid #B48C1D;
   border-radius: 5px;
   margin: 1em auto;
+  background-color: #81A197;
 }
 
 form input, form textarea{
@@ -44,4 +47,16 @@ form button{
   font-size: 2em;
   background-color: #B48C1D;
   border: 1px solid black;
+}
+
+@media (max-width:800px){
+  form{
+    width: 60%
+  }
+}
+
+@media (max-width:800px){
+  form{
+    width: 80%
+  }
 }

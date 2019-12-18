@@ -18,6 +18,7 @@ export default function Projects() {
           <hr></hr>
           <p>Rent yards for private leisure events</p>
         </a>
+        <h3 data-aos='fade-in' className='mobile-title'>Urban Suburbanite</h3>
         <a data-aos='fade-left' className='project' href="http://deckbuilder.surge.sh">
           <div className="overlay">
           </div>
@@ -26,6 +27,7 @@ export default function Projects() {
           <hr></hr>
           <p>Card-cased combat game</p>
         </a>
+        <h3 data-aos='fade-in' className='mobile-title'>Deckbuilder</h3>
         <a data-aos='fade-right' className='project' href="http://sourc.surge.sh">
           <div className='overlay'>
           </div>
@@ -34,6 +36,7 @@ export default function Projects() {
           <hr></hr>
           <p>Job posting board for development and UX</p>
         </a>
+        <h3 data-aos='fade-in' className='mobile-title'>Sourc</h3>
         <a data-aos='fade-left' className='project' href="http://shoppinglist928.surge.sh">
           <div className="overlay">
           </div>
@@ -42,7 +45,9 @@ export default function Projects() {
           <hr></hr>
           <p>Plan, shop, and cook your week's meals</p>
         </a>
+        <h3 data-aos='fade-in' className='mobile-title'>Shopping List</h3>
       </div>
+      <div className="parallax"></div>
     </div >
   )
 }
