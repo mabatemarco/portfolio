@@ -18,7 +18,7 @@ export default function About() {
       <h2>About Me</h2>
       <div className="about">
         <div data-aos='zoom-in-up' className="about-left">
-          <p>I am a software engineer with a passion for problem solving and exploring elegant solutions. My background in science and math has empowered me with critical thinking and analytical skills, and my time working independently has allowed me to develop my abilities to self-motivate and organize. I am naturally curious and hungry to learn (and teach) everything I can in my field. I am currently seeking a software engineer position where growth and development are valued.</p>
+          <p>I am a software engineer with a passion for problem solving and exploring elegant solutions. My background in science and math has empowered me with critical thinking and analytical skills, and my time working independently has allowed me to develop my abilities to self-motivate and organize. I am naturally curious and hungry to learn (and teach) everything I can in my field. I am currently seeking a software engineer position where growth and excellence are valued.</p>
         </div>
         <div data-aos='fade-down' className="about-right">
           <div className="channel">
