@@ -40,7 +40,7 @@ export default function About() {
             </a>
           </div>
           <div className="channel">
-            <a target='_blank' href="https://www.docdroid.net/lPF5nv8/michaelabatemarcoresume.pdf">
+            <a target='_blank' href="https://docs.google.com/document/d/1PumZs1kmM_a9gSuiF21xd4X9r2rFPcQFDg_MHVYpvNQ/edit?usp=sharing">
               <img src={Resume} alt="email" />
               <h4>Resume</h4>
             </a>

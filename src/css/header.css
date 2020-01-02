@@ -60,7 +60,7 @@ header a{
   background:black;
   opacity:.9;
   z-index: 10;
-  animation: slideIn .6s ease-out
+  animation: slideIn .6s ease-out;
 }
 
 .ham-menu a{

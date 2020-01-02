@@ -1,7 +1,7 @@
 #projects{
   background-color: #C8E0EB;
   overflow: hidden;
-  padding-top: 3.5em;
+  padding-top: 2em;
 }
 
 #projects h2{
@@ -82,7 +82,6 @@
   width:70%;
   left:150%;
   top:60%;
-  transform: translateX(-50%);
   font-family: 'Montserrat', sans-serif;
 }
 

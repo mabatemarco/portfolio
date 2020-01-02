@@ -54,3 +54,9 @@
   width:100%;
   font-family: 'Montserrat', sans-serif;
 }
+
+@media (max-width:700px){
+  #hero{
+    height: calc(100vh - 60px)
+  }
+}
