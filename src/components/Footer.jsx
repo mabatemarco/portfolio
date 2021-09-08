@@ -5,7 +5,7 @@ import '../css/footer.css';
 export default function Footer() {
   return (
     <footer>
-      <p>&copy; 2019 &mdash; Michael Abatemarco</p>
+      <p>&copy; 2021 &mdash; Michael Abatemarco</p>
     </footer>
   )
 }
